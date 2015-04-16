@@ -1,0 +1,9 @@
+
+<%if @api== "Positive"%>
+    <h1><%="NO YOU ARE GREAT"%></h1>
+<%elsif @api == "Negative"%>
+    <h1><%= "YES!! YOU'RE A DICK!"%></h1>
+<%elsif @api =="Neutral"%>
+    <h1><%="Just shut up"%></h1>
+    <%end%>
+<%=link_to "Home", new_request_path%>
